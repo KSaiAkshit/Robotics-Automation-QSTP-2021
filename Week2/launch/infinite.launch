@@ -1,0 +1,5 @@
+<launch>
+    <node name = "radius" pkg= "week2" type = "radius.py" />
+    <node name = "compute_ang_vel" pkg= "week2" type = "compute_ang_vel_server.py" />
+    <node name = "infinite" pkg= "week2" type = "infinite.py" />
+</launch>
